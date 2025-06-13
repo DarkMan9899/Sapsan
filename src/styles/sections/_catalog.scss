@@ -1,0 +1,203 @@
+.catalog {
+  padding: 60px 0;
+
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    h2 {
+      font-size: 32px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .arrow-nav {
+      display: flex;
+      gap: 12px;
+
+      .arrow {
+        background: #fff;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background: #f26419;
+          border-color: #f26419;
+
+          svg path {
+            stroke: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  &__slider {
+    overflow: hidden;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__item {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    flex: 1 1 100%;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+
+    @media (min-width: 768px) {
+      flex: 1 1 calc(50% - 20px);
+      max-width: calc(50% - 20px);
+    }
+
+    @media (min-width: 1024px) {
+      flex: 1 1 calc(33.333% - 20px);
+      max-width: calc(33.333% - 20px);
+    }
+
+    @media (min-width: 1280px) {
+      flex: 1 1 calc(25% - 20px);
+      max-width: calc(25% - 20px);
+    }
+
+    &-image {
+      img {
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+        margin-bottom: 15px;
+      }
+    }
+
+    &-content {
+      h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #222;
+      }
+
+      p {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 15px;
+        min-height: 60px;
+      }
+
+      .btn-outline {
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        padding: 0 20px;
+        border: 1px solid #F26419;
+        border-radius: 18px;
+        color: #F26419;
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: none;
+        background-color: transparent;
+        transition: all 0.3s ease;
+        width: 180px;
+
+        &:hover {
+          background-color: #f26419;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  &__item-content_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+// ==========================
+// Modal Styles
+// ==========================
+
+.custom-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+
+  &-content {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+
+    .modal-text {
+      font-size: 18px;
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    .modal-phone {
+      font-size: 20px;
+      font-weight: bold;
+      color: #F26419;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      svg {
+        margin-right: 8px;
+        vertical-align: middle;
+      }
+    }
+
+    .close-button {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+      color: #aaa;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #F26419;
+      }
+    }
+  }
+}

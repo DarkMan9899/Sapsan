@@ -1,0 +1,51 @@
+// styles/sections/_aboutPage.scss
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+.about-page {
+  padding: 60px 0;
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  &__title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #2c5d61;
+
+    .highlight {
+      color: #f47b20;
+    }
+  }
+
+  &__image {
+    margin-bottom: 30px;
+
+    img {
+      width: 100%;
+      max-width: 700px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  &__description {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 40px;
+  }
+
+  &__footer-logo {
+    margin-top: 20px;
+
+    img {
+      height: 40px;
+    }
+  }
+}

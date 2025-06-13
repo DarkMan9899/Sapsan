@@ -1,0 +1,56 @@
+.cooperation-page {
+  padding: 60px 0;
+  background-color: #fff;
+  position: relative;
+
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  .page-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #00565f; // Same color as "Сотрудничество"
+    margin-bottom: 30px;
+  }
+
+  .slider-wrapper {
+    max-width: 100%;
+    margin: 0 auto 40px;
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        max-height: 300px;
+        object-fit: contain;
+        border: 1px solid #eee;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 6px;
+      }
+    }
+  }
+
+  .text-block {
+    h3 {
+      font-size: 24px;
+      margin-bottom: 16px;
+      span {
+        color: #3da08f; // greenish-blue
+        font-weight: 600;
+      }
+      color: #f57c00; // orange
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.7;
+      color: #333;
+      max-width: 900px;
+    }
+  }
+
+  // Optional background shapes like rightBg/leftBg can be positioned here
+}

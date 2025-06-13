@@ -1,0 +1,26 @@
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'base/reset';
+@import 'base/typography';
+@import 'componets/header';
+@import 'componets/footer';
+
+
+// Section styles
+@import 'sections/hero';
+@import 'sections/catalog';
+@import 'sections/about';
+@import 'sections/production';
+@import 'sections/rnd';
+@import 'sections/partners';
+@import 'sections/press';
+@import 'sections/contact';
+@import 'sections/subscribe';
+
+// Pages
+@import 'pages/HomaPage';
+@import "pages/AboutPage";
+@import "pages/ProductCatalogPage";
+@import "pages/PressCenterPage";
+@import "pages/ProductionPage";
+@import "pages/ContactPage";

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "image": "/p/Rectangle 7.png",
+    "title": "product_1_title",
+    "description": "product_1_description",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "image": "/p/Rectangle 7.png",
+    "title": "product_2_title",
+    "description": "product_2_description",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "image": "/p/Rectangle 7.png",
+    "title": "product_3_title",
+    "description": "product_3_description",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "image": "/p/Rectangle 7.png",
+    "title": "product_4_title",
+    "description": "product_4_description",
+    "link": "#"
+  },
+  {
+    "id": 5,
+    "image": "/p/Rectangle 7.png",
+    "title": "product_5_title",
+    "description": "product_5_description",
+    "link": "#"
+  },
+  {
+    "id": 6,
+    "image": "/p/Rectangle 7.png",
+    "title": "product_6_title",
+    "description": "product_6_description",
+    "link": "#"
+  },
+  {
+    "id": 7,
+    "image": "/p/Rectangle 7.png",
+    "title": "product_7_title",
+    "description": "product_7_description",
+    "link": "#"
+  },
+  {
+    "id": 8,
+    "image": "/p/Rectangle 7.png",
+    "title": "product_8_title",
+    "description": "product_8_description",
+    "link": "#"
+  }
+]

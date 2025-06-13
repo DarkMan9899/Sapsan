@@ -1,0 +1,184 @@
+{
+  "home": "Home",
+  "about": "About",
+  "catalog": "Catalog",
+  "production": "Production",
+  "cooperation": "Cooperation",
+  "press": "Press Center",
+  "contact1": "Contacts",
+  "all_rights_reserved": "All rights reserved",
+  "about_heading": "About Us",
+  "read_more": "Read More",
+  "show_less": "Show Less",
+  "about_text_short": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard dummy text ever since the 1500s.",
+  "about_text_full": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages and more recently with desktop publishing software like Aldus PageMaker.",
+  "years_experience": "years experience",
+  "products": "products",
+  "employees": "employees",
+  "countries": "countries",
+
+
+
+  "hero_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard dummy text since the 1500s.",
+  "capsule_alt": "Pharmaceutical capsule",
+
+
+  "catalog_heading": "Catalog of finished products",
+  "product_1_title": "Product 1",
+  "product_1_description": "Instructions for using product 1",
+  "product_2_title": "Product 2",
+  "product_2_description": "Instructions for using product 2",
+  "product_3_title": "Product 3",
+  "product_3_description": "Instructions for using product 3",
+  "product_4_title": "Product 4",
+  "product_4_description": "Instructions for using product 4",
+  "product_5_title": "Product 5",
+  "product_5_description": "Instructions for using product 5",
+  "product_6_title": "Product 6",
+  "product_6_description": "Instructions for using product 6",
+  "product_7_title": "Product 7",
+  "product_7_description": "Instructions for using product 7",
+  "product_8_title": "Product 8",
+  "product_8_description": "Instructions for using product 8",
+  "view_details": "Buy now",
+  "online_order_text":"For online orders, call this phone number",
+
+  "production_heading": "Production",
+  "gmp_description": "The organization of production and quality control complies with GMP rules. Our production is certified according to international standards.",
+  "iso_description": "The food safety management system complies with ISO 22000:2018 standard. All our processes meet international quality requirements.",
+
+
+
+  "rnd_subtitle": "Research and Development",
+  "rnd_description": "We create new products based on unique ideas, global scientific experience, and modern innovative technologies.",
+
+
+
+
+
+
+
+
+  "contact_heading": "Contact Us",
+  "name_placeholder": "Name",
+  "email_placeholder": "Email",
+  "phone_placeholder": "Phone (optional)",
+  "message_placeholder": "Message",
+  "send_button": "Send",
+  "name_required": "Name is required",
+  "email_required": "Email is required",
+  "email_invalid": "Please enter a valid email",
+  "phone_invalid": "Please enter a valid phone number",
+  "message_required": "Message is required",
+  "message_too_short": "Message is too short",
+  "form_success": "Your message has been sent successfully!",
+  "submission_error": "There was an error submitting your form.",
+  "phone": "Phone",
+  "location": "Location",
+  "follow_us": "Follow Us",
+
+  "company_name": "Sapsan Pharmaceuticals",
+  "about_page": {
+    "title": "Sapsan Pharmaceuticals",
+    "highlight": "Sapsan",
+    "description": "Sapsan Pharmaceuticals is dedicated to advancing healthcare by creating effective and safe medicines..."
+  },
+
+  "product_catalog.title_prefix" : "Production",
+  "product_catalog.title_highlight" : "Done",
+
+
+
+
+  "press_articles": [
+    {
+      "id": 1,
+      "title": "What is important to know about clinical trials?",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+      "fullText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard dummy text ever since the 1500s..."
+    },
+    {
+      "id": 2,
+      "title": "What is important to know about clinical trials?",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+      "fullText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard dummy text ever since the 1500s..."
+    },
+    {
+      "id": 3,
+      "title": "What is important to know about clinical trials?",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+      "fullText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard dummy text ever since the 1500s..."
+    },
+    {
+      "id": 4,
+      "title": "What is important to know about clinical trials?",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+      "fullText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard dummy text ever since the 1500s..."
+    },
+    {
+      "id": 5,
+      "title": "What is important to know about clinical trials?",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+      "fullText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard dummy text ever since the 1500s..."
+    },
+    {
+      "id": 6,
+      "title": "What is important to know about clinical trials?",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+      "fullText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard dummy text ever since the 1500s..."
+    },
+    {
+      "id": 7,
+      "title": "What is important to know about clinical trials?",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+      "fullText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard dummy text ever since the 1500s..."
+    },
+    {
+      "id": 8,
+      "title": "What is important to know about clinical trials?",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+      "fullText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard dummy text ever since the 1500s..."
+    },
+    {
+      "id": 9,
+      "title": "What is important to know about clinical trials?",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+      "fullText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard dummy text ever since the 1500s..."
+    },
+    {
+      "id": 10,
+      "title": "What is important to know about clinical trials?",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+      "fullText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard dummy text ever since the 1500s..."
+    }
+  ],
+
+  "productionpage": {
+    "title": "Production",
+    "cert1": "The production organization and control system complies with the GMP rules, certified by ISO/GMP/EAU/062022:2022",
+    "cert2": "The food safety management system complies with ISO 22000:2018 standards, certified 24 February 2022",
+    "subtitle": "How we produce medecine !",
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."
+  },
+
+  "cooperationpage.page": {
+    "title": "Cooperation",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
+  },
+
+
+  "footer": {
+    "subscribeText": "We will inform you about all our discounts and news",
+    "placeholder": "Your email address",
+    "subscribe": "Subscribe Now",
+    "rights": "All Rights Reserved",
+    "terms": "Terms",
+    "privacy": "Privacy Policy"
+  }
+}
+
+
+
+
+
+}

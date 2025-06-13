@@ -1,0 +1,97 @@
+@import '../abstracts/variables';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* Typography styles */
+body {
+  font-family: $font-main;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: $text-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-heading;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 700;
+
+  @media (max-width: $tablet) {
+    font-size: 32px;
+  }
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+
+  @media (max-width: $tablet) {
+    font-size: 26px;
+  }
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+
+  @media (max-width: $tablet) {
+    font-size: 20px;
+  }
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 1em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.text-small {
+  font-size: 14px;
+}
+
+.text-large {
+  font-size: 18px;
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+.text-light {
+  color: $light-text;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-medium {
+  font-weight: 500;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}

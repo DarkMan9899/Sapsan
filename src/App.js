@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
+import HomaPage from "./pages/HomaPage";
+import AboutUs from "./pages/AboutUs";
+import SubscribeSection from "./section/SubscribeSection";
+import Header from "./components/Header";
+import ProductCatalogPage from "./pages/ProductCatalogPage";
+import PressCenterPage from "./pages/PressCenterPage";
+import ProductionPage from "./pages/ProductionPage";
+import CooperationPage from "./pages/CooperationPage";
+import ContactPage from "./pages/ContactPage";
+
+// ավելացրու մյուս էջերը...
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Router>
+            <Header/>
+            <main>
+                <Routes>
+                    <Route path="/" element={<HomaPage />} />
+                    <Route path="/about" element={<AboutUs/>}/>
+                    <Route path="/catalogs" element={<ProductCatalogPage/>}/>
+                    <Route path="/pressCenter" element={<PressCenterPage/>}/>
+                    <Route path="/production" element={<ProductionPage/>}/>
+                    <Route path="/cooperation" element={<CooperationPage/>}/>
+                    <Route path="/contact" element={<ContactPage/>}/>
+                </Routes>
+            </main>
+            <SubscribeSection/>
+        </Router>
+    );
 }
 
 export default App;

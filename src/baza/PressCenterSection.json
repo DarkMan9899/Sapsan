@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "image": "/p/rnd-bg.jpg",
+    "date": "07/04/2025 19:00",
+    "titleKey": "press_articles.1.title",
+    "textKey": "press_articles.1.text",
+    "fullTextKey": "press_articles.1.fullText",
+    "category": "clinical_trials"
+  },
+  {
+    "id": 2,
+    "image": "/p/rnd-bg.jpg",
+    "date": "05/04/2025 14:30",
+    "titleKey": "press_articles.2.title",
+    "textKey": "press_articles.2.text",
+    "fullTextKey": "press_articles.2.fullText",
+    "category": "patients"
+  },
+  {
+    "id": 3,
+    "image": "/p/rnd-bg.jpg",
+    "date": "01/04/2025 10:15",
+    "titleKey": "press_articles.3.title",
+    "textKey": "press_articles.3.text",
+    "fullTextKey": "press_articles.3.fullText",
+    "category": "modern_research"
+  },
+  {
+    "id": 4,
+    "image": "/p/rnd-bg.jpg",
+    "date": "30/03/2025 12:00",
+    "titleKey": "press_articles.4.title",
+    "textKey": "press_articles.4.text",
+    "fullTextKey": "press_articles.4.fullText",
+    "category": "participation"
+  },
+  {
+    "id": 5,
+    "image": "/p/rnd-bg.jpg",
+    "date": "28/03/2025 09:00",
+    "titleKey": "press_articles.5.title",
+    "textKey": "press_articles.5.text",
+    "fullTextKey": "press_articles.5.fullText",
+    "category": "ethics"
+  },
+  {
+    "id": 6,
+    "image": "/p/rnd-bg.jpg",
+    "date": "26/03/2025 10:00",
+    "titleKey": "press_articles.6.title",
+    "textKey": "press_articles.6.text",
+    "fullTextKey": "press_articles.6.fullText",
+    "category": "innovation"
+  },
+  {
+    "id": 7,
+    "image": "/p/rnd-bg.jpg",
+    "date": "24/03/2025 13:20",
+    "titleKey": "press_articles.7.title",
+    "textKey": "press_articles.7.text",
+    "fullTextKey": "press_articles.7.fullText",
+    "category": "regulations"
+  },
+  {
+    "id": 8,
+    "image": "/p/rnd-bg.jpg",
+    "date": "22/03/2025 16:40",
+    "titleKey": "press_articles.8.title",
+    "textKey": "press_articles.8.text",
+    "fullTextKey": "press_articles.8.fullText",
+    "category": "technology"
+  },
+  {
+    "id": 9,
+    "image": "/p/rnd-bg.jpg",
+    "date": "20/03/2025 11:00",
+    "titleKey": "press_articles.9.title",
+    "textKey": "press_articles.9.text",
+    "fullTextKey": "press_articles.9.fullText",
+    "category": "phases"
+  },
+  {
+    "id": 10,
+    "image": "/p/rnd-bg.jpg",
+    "date": "18/03/2025 15:30",
+    "titleKey": "press_articles.10.title",
+    "textKey": "press_articles.10.text",
+    "fullTextKey": "press_articles.10.fullText",
+    "category": "future"
+  }
+]
