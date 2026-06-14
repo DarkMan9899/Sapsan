@@ -1,4 +1,3 @@
-// index.js - Ուղղված i18n կարգավորում
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import HttpBackend from 'i18next-http-backend';
@@ -9,23 +8,20 @@ i18n
     .use(LanguageDetector)
     .use(initReactI18next)
     .init({
-        fallbackLng: 'hy',
-        debug: true,
+        fallbackLng: 'hy',          // ✅ ՄԻՇՏ հայերեն
+        lng: 'hy',                  // ✅ initial language
+        supportedLngs: ['hy', 'en', 'ru'],
+        debug: false,
         interpolation: {
-            escapeValue: false
+            escapeValue: false,
         },
         backend: {
-            // Ուղղված path - պետք է {{lng}} պարունակի լեզվի կոդը
-            loadPath: '/locales/{{lng}}/{{lng}}.json'
+            loadPath: '/locales/{{lng}}/{{lng}}.json',
         },
-        // Հնարավոր լեզուների ցանկ
-        supportedLngs: ['hy', 'en', 'ru'],
-        // Լեզու հայտնաբերման կարգավորումներ
         detection: {
-            order: ['localStorage', 'navigator', 'htmlTag'],
-            lookupLocalStorage: 'i18nextLng',
-            caches: ['localStorage']
-        }
+            order: ['localStorage', 'querystring', 'cookie', 'htmlTag'],
+            caches: ['localStorage'],
+        },
     });
 
 export default i18n;

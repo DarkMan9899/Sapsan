@@ -74,8 +74,8 @@ const App = () => {
                     <AboutSection />
                     <ProductionSection />
                     <RNDSection />
-                    <PartnersSection />
-                    <PressCenterSection />
+                    {/*<PartnersSection />*/}
+                    {/*<PressCenterSection />*/}
                     <ContactSection />
                 </main>
                 {/*<SubscribeSection />*/}

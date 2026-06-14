@@ -43,6 +43,7 @@
   "view_details": "Buy now",
   "online_order_text":"For online orders, call this phone number",
 
+  "see_more": "See more",
   "production_heading": "Production",
   "gmp_description": "The organization of production and quality control complies with GMP rules. Our production is certified according to international standards.",
   "iso_description": "The food safety management system complies with ISO 22000:2018 standard. All our processes meet international quality requirements.",
@@ -75,6 +76,8 @@
   "submission_error": "There was an error submitting your form.",
   "phone": "Phone",
   "location": "Location",
+  "location_ad" : "Sarmen Street, 90",
+
   "follow_us": "Follow Us",
 
   "company_name": "Sapsan Pharmaceuticals",
@@ -177,8 +180,3 @@
   }
 }
 
-
-
-
-
-}

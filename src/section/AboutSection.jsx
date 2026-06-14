@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import aboutImage from "../assets/rnd-bg.jpg"
+import aboutImage from "../../src/assets/11.png"
 import {Link} from "react-router-dom";
 
 const About = () => {
@@ -41,9 +41,9 @@ const About = () => {
                                 {showMore ? t('about_text_full') : t('about_text_short')}
                             </p>
 
-                            <Link to="/about" className="btn-text">
-                                { t('read_more')}
-                            </Link>
+                            {/*<Link to="/about" className="btn-text">*/}
+                            {/*    { t('read_more')}*/}
+                            {/*</Link>*/}
 
                         </div>
                     </div>

@@ -13,9 +13,9 @@ const HeroSection = () => {
                     <span>Sapsan</span> <span className="highlight">Pharmaceuticals</span>
                 </h1>
                 <p>{t('hero_text')}</p>
-                <Link to="/about" className="btn">
-                    {t('read_more', { defaultValue: 'Կարդալ ավելին' })}
-                </Link>
+                {/*<Link to="/about" className="btn">*/}
+                {/*    {t('read_more', { defaultValue: 'Կարդալ ավելին' })}*/}
+                {/*</Link>*/}
             </div>
             <div className="hero__image">
                 <img src={hero} alt={t('capsule_alt')} />

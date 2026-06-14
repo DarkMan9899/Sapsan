@@ -20,33 +20,6 @@
       font-weight: bold;
       color: #333;
     }
-
-    .arrow-nav {
-      display: flex;
-      gap: 12px;
-
-      .arrow {
-        background: #fff;
-        border: 1px solid #ccc;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        transition: all 0.3s ease;
-
-        &:hover {
-          background: #f26419;
-          border-color: #f26419;
-
-          svg path {
-            stroke: #fff;
-          }
-        }
-      }
-    }
   }
 
   &__slider {
@@ -67,7 +40,6 @@
     flex: 1 1 100%;
     max-width: 100%;
     padding: 20px;
-    box-sizing: border-box;
     text-align: center;
 
     @media (min-width: 768px) {
@@ -109,8 +81,6 @@
       }
 
       .btn-outline {
-        align-items: center;
-        justify-content: center;
         height: 40px;
         padding: 0 20px;
         border: 1px solid #F26419;
@@ -118,13 +88,13 @@
         color: #F26419;
         font-size: 14px;
         font-weight: 500;
-        text-decoration: none;
-        background-color: transparent;
+        background: transparent;
+        cursor: pointer;
         transition: all 0.3s ease;
         width: 180px;
 
         &:hover {
-          background-color: #f26419;
+          background-color: #F26419;
           color: #fff;
         }
       }
@@ -138,59 +108,83 @@
   }
 }
 
-// ==========================
-// Modal Styles
-// ==========================
+/* ==========================
+   MODAL – FINAL VERSION
+   ========================== */
 
 .custom-modal {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 1000;
+  padding: 20px;
 
   &-content {
-    background-color: #fff;
-    padding: 30px 20px;
-    border-radius: 12px;
-    width: 90%;
-    max-width: 400px;
-    text-align: center;
+    background: #fff;
+    border-radius: 14px;
+    width: 100%;
+    max-width: 800px;
+    max-height: 100vh;
+    padding: 28px 22px;
     position: relative;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+
+    h3 {
+      font-size: 22px;
+      font-weight: 600;
+      color: #222;
+      margin-bottom: 12px;
+    }
 
     .modal-text {
-      font-size: 18px;
-      margin-bottom: 15px;
-      color: #333;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #444;
+      margin-bottom: 20px;
+
+      /* 🔥 սա է որ \n-երը աշխատեն */
+      white-space: pre-line;
+
+      /* 🔥 scroll */
+      overflow-y: auto;
+      max-height: 40vh;
+      padding-right: 6px;
+
+      &::-webkit-scrollbar {
+        width: 4px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: #F26419;
+        border-radius: 8px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: #eee;
+      }
     }
 
     .modal-phone {
       font-size: 20px;
-      font-weight: bold;
+      font-weight: 600;
       color: #F26419;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      svg {
-        margin-right: 8px;
-        vertical-align: middle;
-      }
+      text-align: center;
+      margin-top: auto;
     }
 
     .close-button {
       position: absolute;
-      top: 10px;
-      right: 15px;
+      top: 12px;
+      right: 14px;
       background: none;
       border: none;
-      font-size: 24px;
+      font-size: 26px;
       cursor: pointer;
       color: #aaa;
       transition: color 0.3s ease;

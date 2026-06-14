@@ -8,10 +8,11 @@ const ContactPage = () => {
             <div className="map-wrapper">
                 <iframe
                     title="Google Map"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.7448989940985!2d44.49701241566591!3d40.179185979393204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4041fda3bbafd13d%3A0xc9912f37cc53a2e!2sYerevan%2C%20Armenia!5e0!3m2!1sen!2sam!4v1615928796441!5m2!1sen!2sam"
+                    src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6095.562769517748!2d44.5068251!3d40.1916784!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sam!4v1750603785895!5m2!1sen!2sam"
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
+
                 <svg className="map-wave" viewBox="0 0 1440 320" preserveAspectRatio="none">
                     <path
                         fill="#fff"

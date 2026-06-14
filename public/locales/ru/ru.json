@@ -16,7 +16,7 @@
   "products": "продукты",
   "employees": "сотрудников",
   "countries": "стран",
-
+  "see_more": "Смотреть больше",
 
   "hero_text": "Lorem Ipsum — это просто фиктивный текст для печати и наборного дела. Используется с 1500-х годов.",
   "capsule_alt": "Фармацевтическая капсула",
@@ -73,6 +73,7 @@
   "submission_error": "Произошла ошибка при отправке формы.",
   "phone": "Телефон",
   "location": "Адрес",
+  "location_ad" : "Улица Сармена, 90 ",
   "follow_us": "Подписывайтесь на нас",
 
   "company_name": "Sapsan Pharmaceuticals",

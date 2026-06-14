@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import '../styles/sections/_contact.scss';
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
+
 
 const ContactSection = () => {
     const { t } = useTranslation();
@@ -147,18 +149,30 @@ const ContactSection = () => {
                     </form>
                     <div className="contact__info">
                         <div className="contact-details">
-                            <p><strong>{t('phone', 'Phone')}:</strong> +374 (12) 345 - 678</p>
-                            <p><strong>E-mail:</strong> sapsan@gmail.com</p>
-                            <p><strong>{t('location', 'Location')}:</strong> Yerevan, Armenia</p>
+                            <p><strong>{t('phone', 'Phone')}:</strong> (010) 529001</p>
+                            <p><strong>E-mail:</strong> sapsanpharmaceuticals@gmail.com</p>
+                            <p><strong>Ք. Երևան, Սարմենի 90</strong></p>
+                            {/*<p><strong>{t('location', 'Location')}:</strong> {t('location_ad', 'location_ad')}</p>*/}
                         </div>
                         <div className="contact-social">
-                            <h4>{t('follow_us', 'Follow Us')}</h4>
-                            <div className="social-icons">
-                                <a href="#" aria-label="Facebook">FB</a>
-                                <a href="#" aria-label="Twitter">TW</a>
-                                <a href="#" aria-label="LinkedIn">IN</a>
-                                <a href="#" aria-label="Instagram">IG</a>
+                            <div className="contact-social">
+                                <h4>{t('follow_us', 'Follow Us')}</h4>
+                                <div className="social-icons">
+                                    <a href="https://www.facebook.com/share/1H9eVKsEKj/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                        <FaFacebookF />
+                                    </a>
+                                    {/*<a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">*/}
+                                    {/*    <FaTwitter />*/}
+                                    {/*</a>*/}
+                                    {/*<a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">*/}
+                                    {/*    <FaLinkedinIn />*/}
+                                    {/*</a>*/}
+                                    <a href="https://www.instagram.com/sapsan_pharmaceuticals?igsh=MTUzbnpvcDMyeXRsZw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                        <FaInstagram />
+                                    </a>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
